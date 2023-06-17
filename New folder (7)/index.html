@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Im Gebäuservice</title>
+    <!-- link for css  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- code for font awosemo icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- LINK FOR SCROLL ANIMATION -->
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- code for navbar starts here  -->
+    <header class="navbar pc">
+        <div class="logo">
+            <h1>Im Gebäudservice</h1>
+        </div>
+        <div class="list-items">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                
+                <li><a href="#">About</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+    <header class="navbar mobile">
+        <div class="logo">
+            <h1>Im Gebäudservice</h1>
+        </div>
+        <div class="mob-list-items">
+            <!-- The overlay -->
+            <div id="myNav" class="overlay">
+
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <!-- Overlay content -->
+                <div class="overlay-content">
+
+                    <a href="#">Home</a>
+                
+                    <a href="#">About</a>
+                    <a href="#">Our Services</a>
+                    <a href="#">Contact Us</a>
+                </div>
+
+            </div>
+
+            <!-- Use any element to open/show the overlay navigation menu -->
+            <span onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
+        </div>
+    </header>
+    <!-- navbar code ends here  -->
+
+    <!-- code for heros section code starts here  -->
+    <!-- <section class="heros-section">
+
+   
+        <div class="conatiner">
+            <h1>IM Gebäudservice</h1>
+        </div>
+    </section> -->
+
+    <!-- code for end section code starts here  -->
+<div class="heros-section">
+    <h1 class="main-heading">Im Gebäudservice</h1>
+    <div class="row">
+        <div class="col1 feature">
+            <h1>Erweisenermaßen das Beste</h1>
+            <h3>UNSERE TOLLEN <br> LEISTUNGEN</h3>
+            <p class="feature-para"><i class="fa-solid fa-check"></i> Gartenpflege</p>
+            <p class="feature-para"><i class="fa-solid fa-check"></i> Büro Reinigunsdienste</p>
+            <p class="feature-para small-font"><i class="fa-solid fa-check"></i> Haushalts Wartung und Reinigung</p>
+            <p class="feature-para"><i class="fa-solid fa-check"></i> Glasreinigung</p>
+            <p class="feature-para"><i class="fa-solid fa-check"></i> Bodenreinigung</p>
+            <p class="feature-para"><i class="fa-solid fa-check"></i> Bureinigung</p>
+            <p class="feature-para"><i class="fa-solid fa-check"></i> Grundreinigung</p>
+            <p class="feature-para"><i class="fa-solid fa-check"></i> Hausmeister</p>
+            <!-- <figure>
+                <img class="img-5" src="./images/5th.png" alt="..." class="img-fluid">
+            </figure> -->
+        </div>
+        <div class="col1 img-ab">
+            <img src="./images/1st.png" alt="..." class="img-fluid img-fixed img-1 pc-img">
+            <img src="./images/2nd.png" alt="..." class="img-fluid img-fixed img-2 pc-img">
+            <!-- <img src="./images/3rd.png" alt="..." class="img-fluid img-fixed img-3"> -->
+            <img src="./images/4th.png" alt="..." class="img-fluid img-fixed img-4 pc-img disable-mob">
+
+            <img src="./images/6th.png" alt="..." class="img-fluid img-fixed img-6">
+
+
+
+            <!-- <img src="./images/img-1.png" alt="..." class="img-fluid pc-img">
+            <img src="./images/mob.png" alt="..." class="img-fluid mobile-img"> -->
+        </div>
+    </div>
+</div>
+
+
+    <!-- code for about section starts here -->
+    <section class="container about">
+        <h1 class="about-heading center">About Us</h1>
+        <div class="row">
+            <div class="col-1">
+                <p class="about-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type
+                    specimen book. It has survived not only five centuries, but also the leap into
+                    electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                    with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                   </p>
+                <div class="about-btn">
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+            <div class="col-1 about-disable">
+                <figure>
+                    <img data-aos="zoom-in-up" src="./images/about.jpg" alt="..." class="img-fluid">
+                </figure>
+            </div>
+        </div>
+    </section>
+    <!-- code for about section starts here -->
+
+    <!-- code for services starts here  -->
+    <section class="container services">
+        <h1 class="services-heading center">OUR SERVICES</h1>
+        <div class="grid-row">
+            <div class="services-box">
+                <img src="./images/services-1.png" alt="..." class="img-fluid">
+                <div class="data-services">
+                    <h1>Odrzavanje Baste</h1>
+                    <p>Home is known for its stunning Home is known for its stunning. Home is known for its stunning.
+                        Home is known for its stunning Home is known for its stunning Home is known for its stunning.
+                    </p>
+                    <div class="btn">
+                        <a href="#">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="services-box">
+                <img src="./images/services-2.png" alt="..." class="img-fluid">
+                <div class="data-services">
+                    <h1>Ciscenje Kancelarije</h1>
+                    <p>Home is known for its stunning Home is known for its stunning. Home is known for its stunning.
+                        Home is known for its stunning Home is known for its stunning Home is known for its stunning.
+                    </p>
+                    <div class="btn">
+                        <a href="#">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="services-box">
+                <img src="./images/services-3.jpg" alt="..." class="img-fluid">
+                <div class="data-services">
+                    <h1>Ciscenje Gradilista</h1>
+                    <p>Home is known for its stunning Home is known for its stunning. Home is known for its stunning.
+                        Home is known for its stunning Home is known for its stunning Home is known for its stunning.
+                    </p>
+                    <div class="btn">
+                        <a href="#">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="services-box">
+                <img src="./images/services-3.jpg" alt="..." class="img-fluid">
+                <div class="data-services">
+                    <h1>Ciscenje Gradilista</h1>
+                    <p>Home is known for its stunning Home is known for its stunning. Home is known for its stunning.
+                        Home is known for its stunning Home is known for its stunning Home is known for its stunning.
+                    </p>
+                    <div class="btn">
+                        <a href="#">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-row">
+            <div class="services-box">
+                <img src="./images/services-4.png" alt="..." class="img-fluid">
+                <div class="data-services">
+                    <h1>Nadzornik Gradilista</h1>
+                    <p>Home is known for its stunning Home is known for its stunning. Home is known for its stunning.
+                        Home is known for its stunning Home is known for its stunning Home is known for its stunning.
+                    </p>
+                    <div class="btn">
+                        <a href="#">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="services-box" >
+                <img src="./images/services-5.png" alt="..." class="img-fluid">
+                <div class="data-services">
+                    <h1>Odrzavanje Kuce</h1>
+                    <p>Home is known for its stunning. Home is known for its stunning. Home is known for its stunning.
+                        Home is known for its stunning Home is known for its stunning Home is known for its stunning.
+                    </p>
+                    <div class="btn">
+                        <a href="#">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="services-box" >
+                <img src="./images/services-7.png" alt="..." class="img-fluid">
+                <div class="data-services">
+                    <h1>Ciscenje Prozora</h1>
+                    <p>Home is known for its stunning Home is known for its stunning. Home is known for its stunning.
+                        Home is known for its stunning Home is known for its stunning Home is known for its stunning.
+                    </p>
+                    <div class="btn">
+                        <a href="#">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="services-box">
+                <img src="./images/services-6.png" alt="..." class="img-fluid">
+                <div class="data-services">
+                    <h1>Seca Drva</h1>
+                    <p>Home is known for its stunning Home is known for its stunning. Home is known for its stunning.
+                        Home is known for its stunning Home is known for its stunning Home is known for its stunning.
+                    </p>
+                    <div class="btn">
+                        <a href="#">Contact Us <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- code for services end here  -->
+
+
+
+
+    <!-- code for contact form starts here  -->
+    <section id="Contact-form">
+        <div class="container">
+            <h1>Contact Form</h1>
+            <div class="center form-center">
+                <form action="https://formsubmit.co/90df7397838c575fcf3ba20dc7b0fbe0" method="POST">
+                    <input type="text" name="Name" placeholder="Full Name" required>
+                    <input type="text" name="Email" placeholder="Email" required>
+                    <select name="Continent">
+                        <option>Africa</option>
+                        <option>Antarctica</option>
+                        <option>Asia</option>
+                        <option>Australia</option>
+                        <option>Europe</option>
+                        <option>North America</option>
+                        <option>South America</option>
+                    </select>
+                    <textarea name="Message" placeholder="Message" required></textarea>
+                    <div class="btn-contact-form">
+                        <a href="#">Send</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- code for contact form ends here  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        /* Open when someone clicks on the span element */
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        /* Close when someone clicks on the "x" symbol inside the overlay */
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+    <!-- link for scroll animation  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+<script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
